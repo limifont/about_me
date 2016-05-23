@@ -1,0 +1,33 @@
+<header class="home-header">
+	
+	<div style="width: 100%;">
+		<div class="logo" style="font-family: isabella;">Lindsey Font</div>
+		<h3 class="tagline">"Insert clever tagline here."</h3>
+	</div>	
+
+
+	<nav class="home-nav">
+		<ul>
+			<% @pages.each do |name, link|%>
+				<li><a href='<%= link %>'><%= name %></a></li><!--
+				-->
+			<% end%>
+		</ul>
+	</nav>
+
+</header>
+
+<!-- "Content" -->
+
+<div class="home-content">
+</div>
+
+<!-- Footer -->
+
+<footer class="home-footer">
+
+	<div>
+		<small>&copy; lindseylabs</small>
+	</div>
+
+</footer>
