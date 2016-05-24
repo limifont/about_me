@@ -15,7 +15,8 @@ body {
 }
 
 .home-header {
-  width: 100%;
+  margin: auto;
+  width: 1280px;
   height: 150px;
   background-color: rgba(206, 203, 215, .8);
   margin-top: 75px;

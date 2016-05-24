@@ -6,11 +6,17 @@
 
 body {
   background: #FFFFFF;
-  background-image: url(http://40.media.tumblr.com/4c538902bd4e0aa2b6fd5a1f41701967/tumblr_nijr2pTY131qfogg1o3_1280.jpg);
-  background-repeat: no-repeat;
   color: #888;
   font: 300 16px/22px;
   max-height: 853px;
+  overflow: hidden;
+}
+
+div.horses {
+  background-image: url(http://40.media.tumblr.com/4c538902bd4e0aa2b6fd5a1f41701967/tumblr_nijr2pTY131qfogg1o3_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
 }
 
 .other-header {
